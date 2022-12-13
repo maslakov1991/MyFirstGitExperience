@@ -53,6 +53,26 @@ body{
 
 .title{
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin: 0 0 40px;
     color: #490E84;
+    font-weight: 700;
+    font-style: 64px;
+    line-height: 77px;
 }
+
+.headline-img{
+    margin-bottom: 25px;
+}
+
+.headline-btn{
+    display: inline-block;
+    font-weight: 700;
+    font-style: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #490E84;
+    padding: 23px 118px 20px 117px;
+    border-radius: 30px;
+}
+
