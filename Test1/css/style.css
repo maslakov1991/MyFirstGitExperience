@@ -235,11 +235,29 @@ body{
     }
 }
 
+@media (max-width: 940px) {
+    .image-new{
+        display: none;
+    }
+
+    .new-text p,
+    .new-text b{
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 560px) {
     .title{
         font-size: 34px;
         line-height: 42px;
     }
+
+    .new-title,
+    .color-title{
+        font-size: 28px;
+        line-height: 32px;
+    }
+
     .headline-btn {
         display: inline-block;
         font-weight: 700;
