@@ -233,6 +233,18 @@ body{
     .headline-img{
         max-width: 100%;
     }
+    .contacts-inner{
+        display: block;
+    }
+    .contacts-form{
+        width: auto;
+    }
+    .contacts-img{
+        width: 100%;
+    }
+    .contacts{
+        background-color: #574B63;
+    }
 }
 
 @media (max-width: 1100px){
@@ -255,13 +267,28 @@ body{
     }
 }
 
+@media (max-width: 768px) {
+    .headline,
+    .new,
+    .contacts{
+        padding: 50px 30px;
+    }
+    .color{
+        padding-bottom: 50px;
+    }
+    .contacts-form {
+        padding: 50px 70px;
+    }
+}
+
 @media (max-width: 560px) {
     .title{
         font-size: 34px;
         line-height: 42px;
     }
     .new-title,
-    .color-title{
+    .color-title,
+    .contact-title{
         font-size: 28px;
         line-height: 32px;
     }
@@ -276,4 +303,14 @@ body{
     .color-item img{
         width: 100%;
     }
+    .contacts-form{
+        padding: 50px 30px;
+    }
 }
+
+@media (max-width: 375px){
+    .contacts-form {
+        padding: 70px 10px;
+    }
+}
+        
