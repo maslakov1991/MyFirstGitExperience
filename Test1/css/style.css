@@ -235,11 +235,20 @@ body{
     }
 }
 
+@media (max-width: 1100px){
+    .color-list{
+        flex-wrap: wrap;
+    }
+    .color-item{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
 @media (max-width: 940px) {
     .image-new{
         display: none;
     }
-
     .new-text p,
     .new-text b{
         max-width: 100%;
@@ -251,18 +260,20 @@ body{
         font-size: 34px;
         line-height: 42px;
     }
-
     .new-title,
     .color-title{
         font-size: 28px;
         line-height: 32px;
     }
-
     .headline-btn {
         display: inline-block;
         font-weight: 700;
         font-size: 18px;
         line-height: 22px;
         padding: 16px 90px;
+    }
+    .color-item,
+    .color-item img{
+        width: 100%;
     }
 }
